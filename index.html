@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Main Meta Rules -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <!-- Favorite Icon -->
+    <link rel="icon" href="images/fav.png" type="image/x-icon" >
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css" >
+    <!-- Box Icons Library -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" >
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" >
+  </head>
+  <body>
+    <!-- Start Conatiner -->
+    <div class="conatiner">
+      <!-- Header Page -->
+      <header>
+        <!-- Logo -->
+        <div class="header-logo">
+          <h1>Store</h1>
+        </div>
+        <!-- Nav Links -->
+        <div class="header-nav">
+          <li class="header-favoriet">
+            <i class='bx bx-heart'></i>
+            <span class="favbadge"><span>0</span></span>
+          </li>
+          <li class="header-cart">
+            <i class='bx bx-shopping-bag'></i>
+            <span class="badge"><span>0</span></span>
+          </li>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Search Area -->
+      <div class="search-area">
+        <h2>Search To Product</h2>
+        <input type="text" class="inputSearch" placeholder="Product Name">
+      </div>
+      <!-- End Search -->
+
+      <!-- Products Area -->
+      <div class="products-area"></div>
+      <!-- Alarm For No Search  -->
+      <div class="noSearchAlarm">
+        ! No products were found matching your selection.
+      </div>
+      <!-- End Products Area -->
+
+      <!-- Cart Container -->
+      <div class="cart-container">
+        <!-- Cart Header -->
+        <div class="cart-header">
+          <!-- Heading Text -->
+          <h2>Your Cart</h2>
+          <!-- Close Cart Button -->
+          <div class="closeCart-btn">
+            <div class="close-cart-action">
+              <i class='bx bxs-up-arrow-alt bx-tada' ></i>
+              <span>Close</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- No Product Yet Alarm Box -->
+        <div class="noProductsInCart">
+          <i class="bx bx-shopping-bag bx-tada"></i>
+          <h3>No Products Added To The Cart Yet !</h3>
+          <button onclick="closeWindow(cartConatiner)">Return To Shop</button>
+        </div>
+
+        <!-- In Cart Area -->
+        <div class="inCart-area">
+          <!-- Data Will Be Come From The JavaScript (: -->
+        </div>
+        <!-- In Cart End -->
+
+        <!-- Controls -->
+        <div class="inCart-controls">
+          <!-- Total Price Box -->
+          <div class="totalPrice-box">
+            <span>Total Price: $0</span>
+          </div>
+          <!-- Checkout Button -->
+          <div class="checkout-btn">
+            <span>Checkout</span>
+          </div>
+        </div>
+      </div>
+      <!-- End Cart Container -->
+
+      <!-- Start In Favoriet -->
+      <div class="favorites-container">
+        <!-- Favorites Header -->
+        <div class="favorites-header">
+          <!-- Heading Text -->
+          <h2>Your Favorites</h2>
+          <!-- Close Favorites Button -->
+          <div class="closeFavorites-btn">
+            <div class="close-Favorites-action">
+              <i class='bx bxs-up-arrow-alt bx-tada' ></i>
+              <span>Close</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- No Favorites Yet Alarm Box -->
+        <div class="noFavorites">
+          <i class="bx bx-heart bx-tada"></i>
+          <h3>No Favorites Added To The Favorites Yet !</h3>
+          <button onclick="closeWindow(favoritesConatiner)">Return To Shop</button>
+        </div>
+
+        <!-- In Favorites Area -->
+        <div class="inFavorites-area">
+          <!-- Data Will Be Come From The JavaScript (: -->
+        </div>
+      </div>
+      <!-- End Favoriet -->
+
+      <!-- Start Footer (: -->
+      <footer>
+        <div class="footer-info">
+          <span>
+            Made With 
+            <i class='bx bxs-heart bx-tada'></i> 
+            By 
+            <a href="https://www.instagram.com/0k1lx" target="_blanck" title="Instagram">Ali</a>
+          </span>
+        </div>
+      </footer>
+      <!-- End  Footer -->
+    </div>
+    <!-- End Conatiner -->
+
+    <!-- Primary Area -->
+    <div class="primary-area">
+      <h2>Primary Color</h2>
+      <!-- Content Area -->
+      <div class="primary-content">
+        <!-- Primary Colors Box -->
+        <div class="primary-colors-box">
+          <span data-primary="rgb(80, 216, 144)"></span>
+          <span data-primary="rgb(103, 58, 183)"></span>
+          <span data-primary="rgb(0, 102, 255)"></span>
+          <span data-primary="rgb(233, 30, 99)"></span>
+        </div>
+        <!-- Toogle Button -->
+        <div class="show-PrimaryBox-Btn">
+          <i class='bx bxs-color-fill bx-tada'></i>
+        </div>
+      </div>
+    </div>
+    <div class="primary-overflow"></div>
+    <!-- End Primary Area -->
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
