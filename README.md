@@ -9,7 +9,7 @@ I Hope You Like It
 * JavaScript
 
 
-###  **Project Live On** [Github Pages](https://codepen.io/Ali-Majed/pen/gOgXKBJ?editors=0010)
+###  **Project Live On** [Github Pages](https://alawe45.github.io/Shopping-Cart/)
 ###  **Project Live On** [Codepen](https://codepen.io/Ali-Majed/pen/gOgXKBJ?editors=0010)
 
 
